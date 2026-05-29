@@ -5,16 +5,16 @@
 
 Issues | Forks | Stars  
 
----
+
 
 ## 🧠 Overview  
 RESQROUTE-AI is a smart, offline-first application designed to help users quickly locate the nearest essential services, such as hospitals, police stations, petrol pumps, and puncture shops. Unlike Google Maps, which requires large downloads or constant internet connectivity, RESQROUTE-AI leverages **GPS and local POI data** to deliver instant results even offline.  
 
 For ambulances, RESQROUTE-AI goes a step further: it calculates the **shortest path to the nearest hospital**, factoring in **traffic light predictions** to avoid congested routes and reduce critical response times.  
 
-*Image Caption: Ambulance driver view showing shortest path with traffic light prediction*
 
----
+
+
 
 ## 🚨 Problem Addressed  
 Emergency response and everyday navigation often suffer due to:  
@@ -24,7 +24,7 @@ Emergency response and everyday navigation often suffer due to:
 
 RESQROUTE-AI solves these by combining **offline maps, POI databases, and intelligent routing algorithms**.  
 
----
+
 
 ## ✨ Features  
 
@@ -38,7 +38,6 @@ RESQROUTE-AI solves these by combining **offline maps, POI databases, and intell
 - 🚦 **Traffic Light Prediction:** Avoid red-light heavy roads, prioritize green-light paths  
 - ⏱️ **Reduced Response Time:** Faster navigation during emergencies  
 
----
 
 ## 📘 Technical Highlights  
 - 🗂️ **SQLite POI Database:** Stores essential services locally  
@@ -47,7 +46,7 @@ RESQROUTE-AI solves these by combining **offline maps, POI databases, and intell
 - 🗺️ **Offline Map Tiles:** Optional region-based downloads for map visualization  
 - 🔧 **Fallback Mode:** List-only view when maps aren’t downloaded  
 
----
+
 
 ## 📂 Project Structure  
 
@@ -74,7 +73,7 @@ RESQROUTE-AI/
 └── package.json          # Dependencies and scripts
 ```
 
----
+
 
 ## 🎉 Highlights  
 - 🚦 **Traffic-Aware Ambulance Routing**  
